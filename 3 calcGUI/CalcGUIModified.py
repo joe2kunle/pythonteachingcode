@@ -198,7 +198,7 @@ class Application(Frame):
         self.one_bttn = Button(self, text="1", width=9, height=3,bg='LightBlue', fg='red', command=lambda: self.add_chr(1))
         self.one_bttn.grid(row=3, column=0)
 
-        self.two_bttn = Button(self, text="DT", width=9, height=3, bg='LightBlue', fg='red',command=lambda: self.add_chr("Thomas"))
+        self.two_bttn = Button(self, text="omodara", width=9, height=3, bg='LightBlue', fg='red',command=lambda: self.add_chr("Kunle"))
         self.two_bttn.grid(row=3, column=1)
 
         self.three_bttn = Button(self, text="3", width=9, height=3,bg='LightBlue', fg='red', command=lambda: self.add_chr(3))
